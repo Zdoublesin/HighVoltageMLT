@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #221306;
+}
+
+/* navigation */
+
+.nav-container {
+background: #080400;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+position: absolute;
+width: 815px;
+height: 88px;
+left: 15px;
+top: -1px;
+}
+
+.wrappper {
+ width: 1386px;
+ margin: 0 auto;
+
+}
+
+nav{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 88px
+}
+
+nav ul{
+  display: flex;
+}
+.nav-profile{
+  position: absolute;
+  width: 60px;
+  height: 62px;
+  left: 700px;
+  top: 11px;
+
+}
+.nav-games li{
+
+  list-style: none;
+  margin-left: 20px;
+}
+.nav-items li{
+  list-style: none;
+  margin-right:  50px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+/* make games margin 0 */
+
+.nav-items li a{
+  color: white;
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* Header */
+.header-content{
+  background: #221306;
+  display: flex;
+  align-items: center;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #221306;
+}
+
+header h1{
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+color: #FFFFFF;
+position: absolute;
+width: 495px;
+height: 61px;
+left: 91px;
+top: 238px;
+text-decoration: underline;
+}
+
+header p1{
+color:  white;
+font-weight: normal;
+font-size: 16px;
+line-height: 153.5%;
+position: absolute;
+width: 319px;
+height: 50px;
+left: 93px;
+top: 299px;
+}
+
+header p2{
+color: white;
+font-weight: normal;
+font-size: 16px;
+line-height: 153.5%;
+position: absolute;
+width: 319px;
+height: 25px;
+left: 91px;
+top: 489px;
+
+}
+header a{
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+color: #FFFFFF;
+position: absolute;
+width: 95px;
+height: 47px;
+left: 97px;
+top: 431px;
+text-decoration: none;
+background: #080400;
+border-radius: 11px;
+position: absolute;
+padding: 0px 10px;
+display: inline-block;
+transition: 300ms;
+}
+header a:hover{
+  transform: translateY(-5px)
+}
+
+.website-image{ /* need to link website image with css*/
+  position: absolute;
+  width: 603px;
+  height: 705px;
+  left: 583px;
+  top: 97px;
+
+}
+.logo-image{/* need to link logo image with css*/
+position: absolute;
+width: 40px;
+height: 40px;
+left: 103px;
+top: 371px;
+background: #080400;
+border-radius: 11px;
+}
+
+/* image */
+header .website-image{
+position: absolute;
+width: 603px;
+height: 705px;
+left: 583px;
+top: 97px;
+
+}
+
+
+

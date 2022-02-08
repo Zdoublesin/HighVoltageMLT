@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "poppins", sans-serif;
+    background: #231300;
+    width: 1441px;
+  }
+  
+  /* navigation */
+  
+  .nav-container {
+  background: #080400;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  position: absolute;
+  width: 815px;
+  height: 88px;
+  left: 15px;
+  top: -1px;
+  }
+  
+  .wrappper {
+   width: 1386px;
+   margin: 0 auto;
+  
+  }
+  
+  nav{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px
+  }
+  
+  nav ul{
+    display: flex;
+  }
+  .nav-profile{
+    position: absolute;
+    width: 60px;
+    height: 62px;
+    left: 700px;
+    top: 11px;
+  
+  }
+  .nav-games li{
+  
+    list-style: none;
+    margin-left: 20px;
+  }
+  .nav-items li{
+    list-style: none;
+    margin-right:  50px;
+    margin-top: 10px;
+    text-align: center;
+  
+  }
+  /* make games margin 0 */
+  
+  .nav-items li a{
+    color: white;
+    font-size: 20px;
+    font-family: "poppins";
+    text-decoration: none;
+  }
+
+/* Header */
+.header-content{
+  background: #221306;
+  display: flex;
+  align-items: center;
+ text-align: center;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #221306;
+}
+
+.first-content{
+  position: absolute;
+  width: 942px;
+  height: 104px;
+  left: 249px;
+  top: 234px;
+  text-align: center;
+  color: white;
+  font: optional;
+}
+
+.world-image{
+position: absolute;
+width: 1060px;
+height: 537.77px;
+left: 110px;
+top: 225px;
+align-items: center;
+}
+
+.contact-details{
+  position: absolute;
+  width: 1192px;
+  height: 102px;
+  left: 133px;
+  top: 1031px;
+  color: white;
+}
+.social-media p1{
+  top: 100px;
+}
+/*will not move*/
+.Phone  p1{
+position: absolute;
+width: 166px;
+height: 24px;
+left: 460px;
+top: 22px;
+
+}
+.phone-image{
+  position: absolute;
+width: 221px;
+height: 30px;
+left: 300px;
+top: 15px;
+}
+
+.email-image{
+position: absolute;
+left: 800px;
+top: 10px;
+}
+
+.email p1{
+  position: absolute;
+  width: 327px;
+  height: 45px;
+  left: 855px;
+  top: 22px;
+}
+
+/*container*/
+#container{
+  position: absolute;
+width: 1170px;
+height: 500px;
+background:#1C140F;
+top: 1200px;
+left: 138px;
+text-align: center;
+align-items: center;
+color: white;
+border-radius: 10px;
+}
+.contact-box{
+  background:#1C140F;
+  display: flex;
+
+}
+.contact-info{
+flex-basis:60%;
+
+
+}
+#Contact-us{
+
+  margin: 0 auto;
+  position: absolute;
+  left: 25%;
+  padding: 40px;
+}
+.container h1{
+margin-bottom: 10px;
+margin-top: 50px;
+
+}
+.container > h1 > p{
+  margin-bottom: 40px;
+}
+.input-row{
+display: flex;
+justify-content: space-between;
+
+}
+.input-row .input-group{
+  flex-basis: 45%;
+
+}
+input{
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 11px;
+  opacity: 45%;
+}
+
+#input-message{
+  height: 100px;
+  padding: 20px;
+  float: right 40px;
+}
+
+.email-loop{
+  position:absolute;
+  width: 1170px;
+  height: auto;
+  background: #1C140F;
+  border-radius: 20px;
+  top: 1900px;
+  margin-left:  138px; 
+  margin-right:  138px;
+  color: white;
+}
+#user-input{
+  float: right;
+  width: 50%;
+  border: none;
+
+}
+.email-loop .continue{
+  background-color: #DC7000;
+  border-radius: 5px;
+  color: white;
+}
+
+#text{ /* needs to be aligned*/
+width: 40%;
+}
+.footer{ /* stretch to fit screen*/
+  position: absolute;
+  top: 2300px;
+  color: white;
+  background-color: #070707;
+  border: none;
+  padding: 100px;
+  vertical-align: auto;
+  width: 100% ;
+}
+#left{
+  float: left;
+  width: 200px;
+
+}
+#middle{
+  float: left;
+  width: 100px;
+
+}
+#right{
+  float: left;
+padding: 20px;
+  width: 400px;
+}
+#socials{
+  float: left;
+  
+}
+.submit{
+  margin-top: 80px;
+  background-color: #DC7000;
+  border-radius: 5px;
+  color: white;
+  padding: 2%;
+}

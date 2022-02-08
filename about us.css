@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "poppins", sans-serif;
+    background: #231300;
+    width: 100%;
+  }
+  
+  /* navigation */
+  
+  .nav-container {
+  background: #080400;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  position: absolute;
+  width: 815px;
+  height: 88px;
+  left: 15px;
+  top: -1px;
+  }
+  
+  .wrappper {
+   width: 1386px;
+   margin: 0 auto;
+  
+  }
+  
+  nav{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px
+  }
+  
+  nav ul{
+    display: flex;
+  }
+  .nav-profile{
+    position: absolute;
+    width: 60px;
+    height: 62px;
+    left: 700px;
+    top: 11px;
+  
+  }
+  .nav-games li{
+  
+    list-style: none;
+    margin-left: 20px;
+  }
+  .nav-items li{
+    list-style: none;
+    margin-right:  50px;
+    margin-top: 10px;
+    text-align: center;
+  
+  }
+  /* make games margin 0 */
+  
+  .nav-items li a{
+    color: white;
+    font-size: 20px;
+    font-family: "poppins";
+    text-decoration: none;
+  }
+
+  .Aboutus-content{
+    color: white;
+      }
+    .Get-in-touch{
+        position: absolute;
+    width: 195px;
+    height: 53px;
+    left: 147px;
+    top: 700px;
+    color: white;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 40px;
+      }
+      .Aboutus-casino{   
+    position: absolute;
+    width: 648px;
+    height: 437px;
+    left: 700px;
+    top: 214px;
+      }
+      .Aboutus-content p1{
+        position: absolute;
+        width: 300px;
+        height: 31px;
+        left: 147px;
+        top: 500px;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 155%;
+        color: #E87D0E;
+      }
+      .Aboutus-content h4{
+        position: absolute;
+        width: 479px;
+        height: 234px;
+        left: 147px;
+        top: 251px;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 50px;
+        color:white;
+      }
+.Reasons{
+  color: white;
+  margin-top: 932px;
+}
+
+#reason1{
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 1029px;
+}
+#reason2{
+  float: left;
+  position: absolute;
+left: 450px;
+top: 1029px;
+}
+#reason3{
+  float: left;
+  position: absolute;
+left: 1000px;
+top: 1120px;
+}
+.Reasons h1{
+  position: absolute;
+  width: auto;
+  height: 45px;
+  left: 100px;
+  top: 1000px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 180%;
+}
+#aboutus-Banner{
+position: absolute;
+width: 100%;
+height: 603px;
+left: 0px;
+top: 1600px;
+}
+
+
+
+
+  .email-loop{
+    position:absolute;
+    width: 1170px;
+    height: auto;
+    background: #1C140F;
+    border-radius: 20px;
+    top: 2300px;
+    margin-left:  138px; 
+    margin-right:  138px;
+    color: white;
+  }
+
+  #user-input{
+    float: right;
+    width: 50%;
+    border: none;
+    
+  
+  }
+  .email-loop .continue{
+    background-color: #DC7000;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  #email-text{ /* needs to be aligned*/
+  width: 40%;
+  }
+  .footer{ /* stretch to fit screen*/
+    position: absolute;
+    top: 2500px;
+    color: white;
+    background-color: #070707;
+    border: none;
+    padding: 100px;
+    vertical-align: auto;
+    width: 100% ;
+  }
+  #left{
+    float: left;
+    width: 200px;
+  
+  }
+  #middle{
+    float: left;
+    width: 100px;
+  
+  }
+  #right{
+    float: left;
+  padding: 20px;
+    width: 400px;
+  }
+  #socials{
+    float: left;
+    
+  }
